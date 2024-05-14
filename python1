@@ -1,0 +1,67 @@
+x=5
+x_ondalik=float(x)
+print(x_ondalik)
+
+y=7.5
+y_tamsayi=int(y)
+print(y_tamsayi)
+
+sayi="123"
+gerceksayi=int(sayi)
+print(gerceksayi)
+
+#odev2************************************************
+
+merve=19
+seda=20
+ahmet=35
+
+if merve>seda and ahmet>seda:
+    print("seda en küçüktür")
+elif seda>merve and ahmet>merve:
+    print("merve en küçüktür")
+else:
+    print("ahmet en küçüktür")
+
+    #odev3********************************************
+sayi1=input("lutfen birinci sayiyi giriniz:")
+sayi2=input("lutfen ikinci sayi giriniz:")
+
+sayi1=int(sayi1)
+sayi2=int(sayi2)
+
+print(sayi1+sayi2)
+print(sayi1-sayi2)
+print(sayi1*sayi2)
+print(sayi1/sayi2)
+
+#odev4****************************************************
+isim=input("lütfen bir isim giriniz:")
+yas=input("lütfen bir yas degeri giriniz:")
+sehir=input("lütfen bir sehir giriniz:")
+meslek=input("lütfen bir meslek giriniz:")
+
+yas=int(yas)
+print(isim , yas, sehir, meslek)
+
+#odev5
+
+cumle="Hi-Kod Veri Bilimi Atölyesi"
+
+print(cumle[0:6])
+print(cumle[7:11])
+print(cumle[12:18])
+print(cumle[19:27])
+
+cumleBuyuk=cumle.upper()
+cumleKucuk=cumle.lower()
+
+print(cumleBuyuk)
+print(cumleKucuk)
+
+
+
+
+
+
+
